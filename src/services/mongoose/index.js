@@ -31,7 +31,7 @@ export default function (callback) {
 		console.log('di');
 	});
 	mongoose.connection.on('close', function (ref) {
-		console.log('close connection to mongo server');
+		console.log('close connection to mongo server'); 
 	});
 };
 
